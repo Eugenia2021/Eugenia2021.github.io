@@ -1,0 +1,51 @@
+* {
+  border: 1px solid green;
+}
+
+h1 {
+  color: mediumvioletred !important;
+  font-family: Georgia;
+}
+
+.title {
+  color: rgb(237, 100, 214);
+  text-transform: uppercase;
+  font-size: 40px;
+  background-image: url(ziema.jpg);
+}
+#article-title {
+  font-family: fantasy;
+}
+img[src*="3d"] {
+  height: 50px;
+}
+a[href*="google"] {
+  color: rgb(8, 31, 159);
+}
+a:hover {
+  background-color: cyan;
+}
+
+p:hover {
+  background-color: cornflowerblue;
+  font-weight: bold;
+}
+.heading-background {
+  background-color: darkmagenta;
+  text-align: right;
+}
+.p-text {
+  color: rgb(148, 206, 148);
+  font-size: 18px;
+  background-color: coral;
+}
+.description h5 {
+  color: darkorchid;
+}
+
+#article-title,
+h4 {
+  background-color: chartreuse;
+  text-align: center;
+  opacity: 0.6;
+}

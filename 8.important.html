@@ -1,0 +1,50 @@
+<!-- 
+
+!important can be applied to specific declarations, instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
+The syntax of !important in CSS looks like this:
+p {
+  color: blue !important;
+}
+ 
+.main p {
+  color: red;
+}
+Since !important is used on the pselector’s color attribute, all p elements will appear blue, even though there is a more specific .main p selector that sets the color attribute to red. 
+1.
+Imagine style-library.css is a stylesheet that is full of good styles! But, you don’t like how it is turning the color of <h1> yellow.
+In style.css, add an !importantrule to the color style of inside the h1 ruleset to change the color back to #FFF (white).
+Hint
+The !important rule goes after the value in the declaration.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="article-title">good here too</h1>
+    <h2 class="heading-background">heading-background</h2>
+    <h2 class="title">here we are</h2>
+    <h5 class="description">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit doloremque
+      ad veritatis, cum repellat sapiente, est nemo ipsa at vero consequatur
+      fugiat suscipit enim doloribus velit ea laborum saepe assumenda!
+    </h5>
+    <h4>look</h4>
+    <p class="p-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum optio
+      repudiandae doloribus repellat modi temporibus minima totam dolor maiores
+      voluptatem unde ad deserunt rerum et, laboriosam ipsum incidunt. Eaque,
+      tempore?
+    </p>
+    <img src="ziema.jpg" />
+    <br />
+    <a href="https://google.com">Go to</a>
+    <br />
+  </body>
+</html
